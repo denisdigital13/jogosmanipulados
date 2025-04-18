@@ -10,8 +10,7 @@ import random
 
 TOKEN = os.getenv("7772540144:AAH2n6ZFh_vSI6ETbd8nalNeRrwhLikEd-k")
 ODDS_API_KEY = os.getenv("fa83543247a232f4abdb97169d9acf69")
-WEBHOOK_URL = os.getenv("https://2919539e-7167-467d-bd83-118f0083b583-00-3escw3i7o6402.spock.replit.dev/7772540144:AAH2n6ZFh_vSI6ETbd8nalNeRrwhLikEd-k
-")
+WEBHOOK_URL = os.getenv("2919539e-7167-467d-bd83-118f0083b583-00-3escw3i7o6402.spock.replit.dev/7772540144:AAH2n6ZFh_vSI6ETbd8nalNeRrwhLikEd-k")
 
 bot = Bot(token=TOKEN)
 app = Flask(__name__)
